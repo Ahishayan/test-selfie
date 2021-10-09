@@ -14,9 +14,9 @@ recognition.onresult = function (event) {
     var content = event.results[0][0].transcript;
     console.log(content);
     document.getElementById("text_box").innerHTML = content;
-    if (content == "Take my selfie") {
-        console.log("we are in");
-        speak();
+   // if (content == "Take my selfie") {
+        //console.log("we are in");
+       // speak();
     }
 }
 function speak() {
